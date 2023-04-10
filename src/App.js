@@ -1,9 +1,15 @@
+import Meals from "./components/Meals/Meals.js";
+import Header from "./components/Layout/Header.js";
+import React ,{ Fragment } from "react";
 function App() {
-    return (
-      <div>
-        <h1>Let get started</h1>
-      </div>
-    );
-  }
-  
-  export default App;
+  return (
+    <Fragment>
+      <Header />
+      <main>
+        <Meals />
+      </main>
+    </Fragment>
+  );
+}
+
+export default App;
