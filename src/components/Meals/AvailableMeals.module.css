@@ -22,4 +22,6 @@
       transform: translateY(0);
     }
   }
-  
+  .li{
+    background-color: rgb(217, 228, 238);
+  }
