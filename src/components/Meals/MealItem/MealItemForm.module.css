@@ -13,8 +13,10 @@
     font-weight: bold;
   }
   
-  .form button:hover,
+  .form button:hover{
+    animation: bump 300ms ease-out;
+  }
   .form button:active {
     background-color: #641e03;
-    border-color: #641e03;
+    border-color: #d50a0a;
   }
